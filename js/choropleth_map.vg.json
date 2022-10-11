@@ -32,15 +32,32 @@
             }
           }
         ],
+        "params": [
+          {"name": "hover", "select": {"type": "point", "on": "mouseover"}}
+        ],
         "projection": {"type": "albersUsa"},
-        "mark": "geoshape",
+        "mark": {"type": "geoshape", "stroke": "#4B0082"},
         "encoding": {
           "color": {
-            "field": "population_density_per_sqmi",
-            "type": "quantitative",
-            "scale": {"type": "linear",
-                "domain": [1, 5, 10, 50, 100, 500],
-                "range": ["#6efae8","#5ad4bd", "#47b095", "#348d70", "#216b4d", "#0e4b2e"]}
+            "condition": {
+              "param": "hover",
+              "field": "population_density_per_sqmi",
+              "type": "quantitative",
+              "scale": {
+                "type": "linear",
+                "domain": [10, 20, 50, 100, 500],
+                "range": [
+                  "#a4d4e8",
+                  "#70b8de",
+                  "#3a9ad6",
+                  "#007ccb",
+                  "#005dbd",
+                  "#003baa",
+                  "#0d108f"
+                ]
+              }
+            },
+            "value": "grey"
           },
           "tooltip": [
             {"field": "county", "type": "nominal", "title": "County"},
@@ -49,8 +66,17 @@
               "type": "quantitative",
               "title": "Population Density"
             }
-          ]
+          ],
+          "strokeWidth": {
+            "condition": [{"param": "hover", "empty": false, "value": 1}],
+            "value": 0.5
+          },
+          "opacity": {
+            "condition": {"param": "hover", "value": 1},
+            "value": 0.1
+          }
         }
       }
+    
     ]
-  }
+}

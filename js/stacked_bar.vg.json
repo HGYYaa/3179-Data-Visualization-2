@@ -1,0 +1,84 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title":"Unhealthy Life Habit Sum in 11 States",
+    "width":400,
+    "height":400,
+    "data": {"url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset_2.csv"},
+    "params": [
+        {
+          "name": "Habit_selection",
+          "bind": {
+            "input": "select",
+            "options": [
+            null,
+            "Obesity",
+            "Excessive Drinking",
+            "Insufficient Sleep",
+            "Smoke"
+            ],
+            "labels":[
+            "Show All",
+            "Obesity",
+            "Excessive Drinking",
+            "Insufficient Sleep",
+            "Smoke"],
+            "name": "Unhealthy Habit Selection: "
+          }
+        }
+      ],
+    "transform": [
+        {"filter": "datum.num_alcohol_impaired_driving_deaths > 1300"},
+        {"filter": "Habit_selection == null || datum.variable == Habit_selection"}
+    ],
+    "encoding": {
+      "x": {
+        "field": "state",
+        "type": "ordinal",
+        "title": "State",
+        "sort":"-y"
+      },
+      "y": {
+        "field": "value",
+        "aggregate": "sum",
+        "type": "quantitative",
+        "title": "Sum of Cases"
+      }
+    },
+    "layer": [
+      {
+        "mark":{
+        "type": "bar",
+        "width":26
+        },
+        "encoding": {
+            "tooltip":[
+            {"field":"value", "type": "nominal","title":"Number of Cases", "format":".0f"}
+            ],
+            "color": {
+            "field": "variable",
+            "type": "nominal",
+            "scale": {
+                "domain": ["Obesity", "Excessive Drinking","Insufficient Sleep",  "Smoke"],
+                "range": [ "#FFD700", "#87CEFA","#F08080","#c7c7c7"]
+            },
+            "title": "Unhealthy Life Habit"
+            }
+        }
+      },
+      {
+        "mark":{
+            "type": "text",
+            "align":"center",
+            "baseline":"middle",
+            "dy":-5
+        },
+        "encoding": {
+            "text":{
+                "field":"value","type": "quantitative","format":".0f"
+            }
+        }
+      }
+    ]
+  }
+  
+

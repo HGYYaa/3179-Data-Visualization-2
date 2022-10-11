@@ -1,20 +1,20 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title":"Camparison of Deaths of Overdose and Deaths of Covid",
+    "title":"Camparison of Deaths of Overdose and Deaths of Covid in 11 States",
     "width":500,
     "height":500,
     "data": {
       "url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset.csv"
     },
     "transform": [
-      {"filter": "datum.num_alcohol_impaired_driving_deaths > 1000"},
+      {"filter": "datum.num_alcohol_impaired_driving_deaths > 1300"},
       {"filter": "datum.num_deaths > 1000"}
     ],
     "layer": [
       {
         "mark": {"type": "bar","size":20,"color":"#3CB371"},
         "encoding": {
-          "y": {"field": "state", "type": "ordinal", "sort": "-x", "title": "State"},
+          "y": {"field": "state", "type": "ordinal", "title": "State"},
           "x": {
             "aggregate": "sum",
             "field": "num_drug_overdose_deaths",
@@ -29,7 +29,7 @@
       {
         "mark": {"type": "bar", "size": 6,"color": "#FFB6C1"},
         "encoding": {
-          "y": {"field": "state", "type": "ordinal"},
+          "y": {"field": "state", "type": "ordinal","sort": "-x"},
           "x": {"aggregate": "sum", 
           "field": "num_deaths",
           "scale":{

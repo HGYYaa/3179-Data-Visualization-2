@@ -1,13 +1,13 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title":"Camparison of Deaths of Drinking and Deaths of Covid",
+    "title":"Camparison of Deaths of Drinking and Deaths of Covid in 11 States",
     "width":500,
     "height":500,
     "data": {
       "url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset.csv"
     },
     "transform": [
-      {"filter": "datum.num_alcohol_impaired_driving_deaths > 1000"},
+      {"filter": "datum.num_alcohol_impaired_driving_deaths > 1300"},
       {"filter": "datum.num_deaths > 1000"}
     ],
     "layer": [

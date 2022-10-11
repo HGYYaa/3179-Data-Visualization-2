@@ -1,0 +1,50 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "The Covid 19 Cases in US in 2020",
+  "width": 500,
+  "height": 300,
+  "layer": [
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/us-atlas@3/counties-10m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "states"
+        }
+      },
+      "projection": {
+        "type": "albersUsa"
+      },
+      "transform": [
+        {"calculate": "datum.properties.name", "as": "note"}
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#1d8f6d",
+        "stroke": "white"
+      },
+      "encoding": {"tooltip": {"field": "note"}}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/HGYYaa/3179HW10/main/data/us_county_sociohealth_data.csv"
+      },
+      "projection": {
+        "type": "albersUsa"
+      },
+      "mark": "circle",
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "size": {"value": 10},
+        "color": {"value": "#FFC0CB"}
+      }
+    }
+  ]
+}

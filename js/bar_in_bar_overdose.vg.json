@@ -7,7 +7,7 @@
       "url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset.csv"
     },
     "transform": [
-      {"filter": "datum.num_alcohol_impaired_driving_deaths > 1300"},
+      {"filter": "datum.num_alcohol_impaired_driving_deaths > 1432"},
       {"filter": "datum.num_deaths > 1000"}
     ],
     "layer": [

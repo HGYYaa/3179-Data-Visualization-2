@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title":"Number of People Vaccinated in each State",
+    "width":500,
+    "height":300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset.csv"
+    },
+    "transform": [
+      {"filter": "datum.num_alcohol_impaired_driving_deaths > 1432"},
+      {"filter": "datum.num_deaths > 1000"}
+    ],
+    "layer": [
+      {
+        "mark": {"type": "bar","size":10,"color":"#3CB371"},
+        "encoding": {
+          "y": {"field": "state", "type": "ordinal", "title": "State","sort":"-x"},
+          "x": {
+            "aggregate": "sum",
+            "field": "percent_vaccinated",
+            "title": "Number of People Vaccinated"
+          },
+          "tooltip":[
+            {"field": "state", "type": "nominal", "title": "State"},
+            {"field": "percent_vaccinated", "type": "quantitative", "title": "Number of People Vaccinated"}
+          ]
+        }
+      },
+      {
+        "mark": {"type": "point", "size": 300,"color": "#3CB371","filled": true},
+        "encoding": {
+            "y": {"field": "state", "type": "ordinal", "title": "State", "sort":"-x"},
+            "x": {
+              "aggregate": "sum",
+              "field": "percent_vaccinated",
+              "title": "Number of People Vaccinated"
+            },
+            "tooltip":[
+              {"field": "state", "type": "nominal", "title": "State"},
+              {"field": "percent_vaccinated", "type": "quantitative", "title": "Number of People Vaccinated"}
+            ]
+          }
+      }
+    ]
+}

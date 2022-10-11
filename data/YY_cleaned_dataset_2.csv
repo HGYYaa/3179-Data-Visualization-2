@@ -1,205 +1,205 @@
 state,variable,value,num_alcohol_impaired_driving_deaths
-Alabama,percent_insufficient_sleep,2589.896286,1284
-Alaska,percent_insufficient_sleep,930.3531697,139
-Arizona,percent_insufficient_sleep,484.2331675,1177
-Arkansas,percent_insufficient_sleep,2604.935846,690
-California,percent_insufficient_sleep,1851.895957,5266
-Colorado,percent_insufficient_sleep,1723.50959,996
-Connecticut,percent_insufficient_sleep,255.2448697,447
-Delaware,percent_insufficient_sleep,105.4689619,183
-District of Columbia,percent_insufficient_sleep,36.20131325,39
-Florida,percent_insufficient_sleep,2377.344766,3467
-Georgia,percent_insufficient_sleep,5889.672838,1548
-Hawaii,percent_insufficient_sleep,196.4098382,166
-Idaho,percent_insufficient_sleep,1288.411229,342
-Illinois,percent_insufficient_sleep,3134.778572,1636
-Indiana,percent_insufficient_sleep,3135.327463,819
-Iowa,percent_insufficient_sleep,2712.373353,455
-Kansas,percent_insufficient_sleep,3097.497285,445
-Kentucky,percent_insufficient_sleep,4643.179493,984
-Louisiana,percent_insufficient_sleep,2386.958382,1252
-Maine,percent_insufficient_sleep,510.2892983,278
-Maryland,percent_insufficient_sleep,818.5837279,734
-Massachusetts,percent_insufficient_sleep,456.1378303,537
-Michigan,percent_insufficient_sleep,2902.229227,1432
-Minnesota,percent_insufficient_sleep,2530.335988,571
-Mississippi,percent_insufficient_sleep,2905.963405,663
-Missouri,percent_insufficient_sleep,3825.267528,1433
-Montana,percent_insufficient_sleep,1525.757538,439
-Nebraska,percent_insufficient_sleep,2585.382063,390
-Nevada,percent_insufficient_sleep,581.7438385,467
-New Hampshire,percent_insufficient_sleep,313.4913445,181
-New Jersey,percent_insufficient_sleep,796.0578369,637
-New Mexico,percent_insufficient_sleep,1038.672309,567
-New York,percent_insufficient_sleep,2212.018177,1229
-North Carolina,percent_insufficient_sleep,3365.607543,2051
-North Dakota,percent_insufficient_sleep,1484.847035,259
-Ohio,percent_insufficient_sleep,3259.407362,1798
-Oklahoma,percent_insufficient_sleep,2579.520466,873
-Oregon,percent_insufficient_sleep,1086.22114,695
-Pennsylvania,percent_insufficient_sleep,2335.356927,1583
-Rhode Island,percent_insufficient_sleep,167.135023,105
-South Carolina,percent_insufficient_sleep,1711.715114,1605
-South Dakota,percent_insufficient_sleep,1728.187583,237
-Tennessee,percent_insufficient_sleep,3393.713249,1264
-Texas,percent_insufficient_sleep,8070.690035,4917
-Utah,percent_insufficient_sleep,848.4517998,303
-Vermont,percent_insufficient_sleep,420.4738522,104
-Virginia,percent_insufficient_sleep,4721.936532,1169
-Washington,percent_insufficient_sleep,1160.36494,852
-West Virginia,percent_insufficient_sleep,2137.793724,385
-Wisconsin,percent_insufficient_sleep,2294.170133,1043
-Wyoming,percent_insufficient_sleep,682.6065309,219
-Alabama,percent_adults_with_obesity,2507.9,1284
-Alaska,percent_adults_with_obesity,1001.4,139
-Arizona,percent_adults_with_obesity,449.3,1177
-Arkansas,percent_adults_with_obesity,2698.8,690
-California,percent_adults_with_obesity,1590.8,5266
-Colorado,percent_adults_with_obesity,1586.2,996
-Connecticut,percent_adults_with_obesity,213.6,447
-Delaware,percent_adults_with_obesity,97,183
-District of Columbia,percent_adults_with_obesity,23.5,39
-Florida,percent_adults_with_obesity,2089.2,3467
-Georgia,percent_adults_with_obesity,5477.2,1548
-Hawaii,percent_adults_with_obesity,112.2,166
-Idaho,percent_adults_with_obesity,1331.3,342
-Illinois,percent_adults_with_obesity,3099.3,1636
-Indiana,percent_adults_with_obesity,3128.6,819
-Iowa,percent_adults_with_obesity,3380,455
-Kansas,percent_adults_with_obesity,3614.4,445
-Kentucky,percent_adults_with_obesity,4230.2,984
-Louisiana,percent_adults_with_obesity,2388.8,1252
-Maine,percent_adults_with_obesity,493.3,278
-Maryland,percent_adults_with_obesity,803.4,734
-Massachusetts,percent_adults_with_obesity,354.8,537
-Michigan,percent_adults_with_obesity,2774.6,1432
-Minnesota,percent_adults_with_obesity,2748.6,571
-Mississippi,percent_adults_with_obesity,3135.2,663
-Missouri,percent_adults_with_obesity,3848.981804,1433
-Montana,percent_adults_with_obesity,1638.5,439
-Nebraska,percent_adults_with_obesity,3137.5,390
-Nevada,percent_adults_with_obesity,502.8,467
-New Hampshire,percent_adults_with_obesity,288.4,181
-New Jersey,percent_adults_with_obesity,576.4,637
-New Mexico,percent_adults_with_obesity,950.4,567
-New York,percent_adults_with_obesity,1938.716529,1229
-North Carolina,percent_adults_with_obesity,3380.2,2051
-North Dakota,percent_adults_with_obesity,1765.2,259
-Ohio,percent_adults_with_obesity,3019.9,1798
-Oklahoma,percent_adults_with_obesity,2705.4,873
-Oregon,percent_adults_with_obesity,1135.2,695
-Pennsylvania,percent_adults_with_obesity,2180.7,1583
-Rhode Island,percent_adults_with_obesity,131.7,105
-South Carolina,percent_adults_with_obesity,1672.6,1605
-South Dakota,percent_adults_with_obesity,2187,237
-Tennessee,percent_adults_with_obesity,3208.8,1264
-Texas,percent_adults_with_obesity,7936.9,4917
-Utah,percent_adults_with_obesity,780.9,303
-Vermont,percent_adults_with_obesity,389.7,104
-Virginia,percent_adults_with_obesity,4328.2,1169
-Washington,percent_adults_with_obesity,1208.3,852
-West Virginia,percent_adults_with_obesity,2040.6,385
-Wisconsin,percent_adults_with_obesity,2345.9,1043
-Wyoming,percent_adults_with_obesity,663.4,219
-Alabama,percent_excessive_drinking,907.0810318,1284
-Alaska,percent_excessive_drinking,608.088642,139
-Arizona,percent_excessive_drinking,238.601669,1177
-Arkansas,percent_excessive_drinking,1030.677439,690
-California,percent_excessive_drinking,1150.321389,5266
-Colorado,percent_excessive_drinking,1164.464308,996
-Connecticut,percent_excessive_drinking,144.4616138,447
-Delaware,percent_excessive_drinking,52.4529901,183
-District of Columbia,percent_excessive_drinking,27.3130182,39
-Florida,percent_excessive_drinking,1175.838218,3467
-Georgia,percent_excessive_drinking,2369.130465,1548
-Hawaii,percent_excessive_drinking,98.09069442,166
-Idaho,percent_excessive_drinking,687.5987462,342
-Illinois,percent_excessive_drinking,2033.27345,1636
-Indiana,percent_excessive_drinking,1576.113618,819
-Iowa,percent_excessive_drinking,2012.790333,455
-Kansas,percent_excessive_drinking,1767.791942,445
-Kentucky,percent_excessive_drinking,1880.396125,984
-Louisiana,percent_excessive_drinking,1193.185381,1252
-Maine,percent_excessive_drinking,311.1445438,278
-Maryland,percent_excessive_drinking,402.6392433,734
-Massachusetts,percent_excessive_drinking,300.4778633,537
-Michigan,percent_excessive_drinking,1580.690817,1432
-Minnesota,percent_excessive_drinking,1808.857711,571
-Mississippi,percent_excessive_drinking,1096.635026,663
-Missouri,percent_excessive_drinking,2033.288144,1433
-Montana,percent_excessive_drinking,1166.020153,439
-Nebraska,percent_excessive_drinking,1855.653057,390
-Nevada,percent_excessive_drinking,344.8243901,467
-New Hampshire,percent_excessive_drinking,193.7136809,181
-New Jersey,percent_excessive_drinking,388.8348289,637
-New Mexico,percent_excessive_drinking,517.9293709,567
-New York,percent_excessive_drinking,1260.700772,1229
-North Carolina,percent_excessive_drinking,1575.026491,2051
-North Dakota,percent_excessive_drinking,1136.761332,259
-Ohio,percent_excessive_drinking,1604.378657,1798
-Oklahoma,percent_excessive_drinking,1030.033819,873
-Oregon,percent_excessive_drinking,660.8814261,695
-Pennsylvania,percent_excessive_drinking,1320.220655,1583
-Rhode Island,percent_excessive_drinking,101.2977524,105
-South Carolina,percent_excessive_drinking,713.6765439,1605
-South Dakota,percent_excessive_drinking,1183.035554,237
-Tennessee,percent_excessive_drinking,1320.731759,1264
-Texas,percent_excessive_drinking,4558.42076,4917
-Utah,percent_excessive_drinking,338.4104729,303
-Vermont,percent_excessive_drinking,276.5979178,104
-Virginia,percent_excessive_drinking,2275.192725,1169
-Washington,percent_excessive_drinking,691.7532838,852
-West Virginia,percent_excessive_drinking,676.2617488,385
-Wisconsin,percent_excessive_drinking,1788.046996,1043
-Wyoming,percent_excessive_drinking,433.5712324,219
-Alabama,percent_smokers,1339.278504,1284
-Alaska,percent_smokers,603.3870327,139
-Arizona,percent_smokers,247.258666,1177
-Arkansas,percent_smokers,1529.163651,690
-California,percent_smokers,701.3127864,5266
-Colorado,percent_smokers,915.0398436,996
-Connecticut,percent_smokers,94.98895934,447
-Delaware,percent_smokers,48.1513188,183
-District of Columbia,percent_smokers,15.96559215,39
-Florida,percent_smokers,1285.804787,3467
-Georgia,percent_smokers,2903.75868,1548
-Hawaii,percent_smokers,62.60353547,166
-Idaho,percent_smokers,622.533261,342
-Illinois,percent_smokers,1615.269618,1636
-Indiana,percent_smokers,1833.751121,819
-Iowa,percent_smokers,1568.540869,455
-Kansas,percent_smokers,1699.462887,445
-Kentucky,percent_smokers,2674.929757,984
-Louisiana,percent_smokers,1394.747154,1252
-Maine,percent_smokers,257.9636455,278
-Maryland,percent_smokers,346.0934001,734
-Massachusetts,percent_smokers,185.7813272,537
-Michigan,percent_smokers,1457.997039,1432
-Minnesota,percent_smokers,1303.595109,571
-Mississippi,percent_smokers,1668.107306,663
-Missouri,percent_smokers,2371.630117,1433
-Montana,percent_smokers,944.6638737,439
-Nebraska,percent_smokers,1360.084915,390
-Nevada,percent_smokers,298.3605357,467
-New Hampshire,percent_smokers,148.4627272,181
-New Jersey,percent_smokers,295.4359839,637
-New Mexico,percent_smokers,563.1984957,567
-New York,percent_smokers,966.690045,1229
-North Carolina,percent_smokers,1747.506506,2051
-North Dakota,percent_smokers,906.3440139,259
-Ohio,percent_smokers,1689.554028,1798
-Oklahoma,percent_smokers,1466.29212,873
-Oregon,percent_smokers,554.8956988,695
-Pennsylvania,percent_smokers,1201.952311,1583
-Rhode Island,percent_smokers,66.48484105,105
-South Carolina,percent_smokers,830.1004713,1605
-South Dakota,percent_smokers,1125.08077,237
-Tennessee,percent_smokers,2122.684344,1264
-Texas,percent_smokers,3795.451786,4917
-Utah,percent_smokers,291.4378692,303
-Vermont,percent_smokers,204.6117547,104
-Virginia,percent_smokers,2259.828624,1169
-Washington,percent_smokers,548.4080682,852
-West Virginia,percent_smokers,1258.544282,385
-Wisconsin,percent_smokers,1158.24176,1043
-Wyoming,percent_smokers,369.2847191,219
+Alabama,Insufficient Sleep,2589.896286,1284
+Alaska,Insufficient Sleep,930.3531697,139
+Arizona,Insufficient Sleep,484.2331675,1177
+Arkansas,Insufficient Sleep,2604.935846,690
+California,Insufficient Sleep,1851.895957,5266
+Colorado,Insufficient Sleep,1723.50959,996
+Connecticut,Insufficient Sleep,255.2448697,447
+Delaware,Insufficient Sleep,105.4689619,183
+District of Columbia,Insufficient Sleep,36.20131325,39
+Florida,Insufficient Sleep,2377.344766,3467
+Georgia,Insufficient Sleep,5889.672838,1548
+Hawaii,Insufficient Sleep,196.4098382,166
+Idaho,Insufficient Sleep,1288.411229,342
+Illinois,Insufficient Sleep,3134.778572,1636
+Indiana,Insufficient Sleep,3135.327463,819
+Iowa,Insufficient Sleep,2712.373353,455
+Kansas,Insufficient Sleep,3097.497285,445
+Kentucky,Insufficient Sleep,4643.179493,984
+Louisiana,Insufficient Sleep,2386.958382,1252
+Maine,Insufficient Sleep,510.2892983,278
+Maryland,Insufficient Sleep,818.5837279,734
+Massachusetts,Insufficient Sleep,456.1378303,537
+Michigan,Insufficient Sleep,2902.229227,1432
+Minnesota,Insufficient Sleep,2530.335988,571
+Mississippi,Insufficient Sleep,2905.963405,663
+Missouri,Insufficient Sleep,3825.267528,1433
+Montana,Insufficient Sleep,1525.757538,439
+Nebraska,Insufficient Sleep,2585.382063,390
+Nevada,Insufficient Sleep,581.7438385,467
+New Hampshire,Insufficient Sleep,313.4913445,181
+New Jersey,Insufficient Sleep,796.0578369,637
+New Mexico,Insufficient Sleep,1038.672309,567
+New York,Insufficient Sleep,2212.018177,1229
+North Carolina,Insufficient Sleep,3365.607543,2051
+North Dakota,Insufficient Sleep,1484.847035,259
+Ohio,Insufficient Sleep,3259.407362,1798
+Oklahoma,Insufficient Sleep,2579.520466,873
+Oregon,Insufficient Sleep,1086.22114,695
+Pennsylvania,Insufficient Sleep,2335.356927,1583
+Rhode Island,Insufficient Sleep,167.135023,105
+South Carolina,Insufficient Sleep,1711.715114,1605
+South Dakota,Insufficient Sleep,1728.187583,237
+Tennessee,Insufficient Sleep,3393.713249,1264
+Texas,Insufficient Sleep,8070.690035,4917
+Utah,Insufficient Sleep,848.4517998,303
+Vermont,Insufficient Sleep,420.4738522,104
+Virginia,Insufficient Sleep,4721.936532,1169
+Washington,Insufficient Sleep,1160.36494,852
+West Virginia,Insufficient Sleep,2137.793724,385
+Wisconsin,Insufficient Sleep,2294.170133,1043
+Wyoming,Insufficient Sleep,682.6065309,219
+Alabama,Obesity,2507.9,1284
+Alaska,Obesity,1001.4,139
+Arizona,Obesity,449.3,1177
+Arkansas,Obesity,2698.8,690
+California,Obesity,1590.8,5266
+Colorado,Obesity,1586.2,996
+Connecticut,Obesity,213.6,447
+Delaware,Obesity,97,183
+District of Columbia,Obesity,23.5,39
+Florida,Obesity,2089.2,3467
+Georgia,Obesity,5477.2,1548
+Hawaii,Obesity,112.2,166
+Idaho,Obesity,1331.3,342
+Illinois,Obesity,3099.3,1636
+Indiana,Obesity,3128.6,819
+Iowa,Obesity,3380,455
+Kansas,Obesity,3614.4,445
+Kentucky,Obesity,4230.2,984
+Louisiana,Obesity,2388.8,1252
+Maine,Obesity,493.3,278
+Maryland,Obesity,803.4,734
+Massachusetts,Obesity,354.8,537
+Michigan,Obesity,2774.6,1432
+Minnesota,Obesity,2748.6,571
+Mississippi,Obesity,3135.2,663
+Missouri,Obesity,3848.981804,1433
+Montana,Obesity,1638.5,439
+Nebraska,Obesity,3137.5,390
+Nevada,Obesity,502.8,467
+New Hampshire,Obesity,288.4,181
+New Jersey,Obesity,576.4,637
+New Mexico,Obesity,950.4,567
+New York,Obesity,1938.716529,1229
+North Carolina,Obesity,3380.2,2051
+North Dakota,Obesity,1765.2,259
+Ohio,Obesity,3019.9,1798
+Oklahoma,Obesity,2705.4,873
+Oregon,Obesity,1135.2,695
+Pennsylvania,Obesity,2180.7,1583
+Rhode Island,Obesity,131.7,105
+South Carolina,Obesity,1672.6,1605
+South Dakota,Obesity,2187,237
+Tennessee,Obesity,3208.8,1264
+Texas,Obesity,7936.9,4917
+Utah,Obesity,780.9,303
+Vermont,Obesity,389.7,104
+Virginia,Obesity,4328.2,1169
+Washington,Obesity,1208.3,852
+West Virginia,Obesity,2040.6,385
+Wisconsin,Obesity,2345.9,1043
+Wyoming,Obesity,663.4,219
+Alabama,Excessive Drinking,907.0810318,1284
+Alaska,Excessive Drinking,608.088642,139
+Arizona,Excessive Drinking,238.601669,1177
+Arkansas,Excessive Drinking,1030.677439,690
+California,Excessive Drinking,1150.321389,5266
+Colorado,Excessive Drinking,1164.464308,996
+Connecticut,Excessive Drinking,144.4616138,447
+Delaware,Excessive Drinking,52.4529901,183
+District of Columbia,Excessive Drinking,27.3130182,39
+Florida,Excessive Drinking,1175.838218,3467
+Georgia,Excessive Drinking,2369.130465,1548
+Hawaii,Excessive Drinking,98.09069442,166
+Idaho,Excessive Drinking,687.5987462,342
+Illinois,Excessive Drinking,2033.27345,1636
+Indiana,Excessive Drinking,1576.113618,819
+Iowa,Excessive Drinking,2012.790333,455
+Kansas,Excessive Drinking,1767.791942,445
+Kentucky,Excessive Drinking,1880.396125,984
+Louisiana,Excessive Drinking,1193.185381,1252
+Maine,Excessive Drinking,311.1445438,278
+Maryland,Excessive Drinking,402.6392433,734
+Massachusetts,Excessive Drinking,300.4778633,537
+Michigan,Excessive Drinking,1580.690817,1432
+Minnesota,Excessive Drinking,1808.857711,571
+Mississippi,Excessive Drinking,1096.635026,663
+Missouri,Excessive Drinking,2033.288144,1433
+Montana,Excessive Drinking,1166.020153,439
+Nebraska,Excessive Drinking,1855.653057,390
+Nevada,Excessive Drinking,344.8243901,467
+New Hampshire,Excessive Drinking,193.7136809,181
+New Jersey,Excessive Drinking,388.8348289,637
+New Mexico,Excessive Drinking,517.9293709,567
+New York,Excessive Drinking,1260.700772,1229
+North Carolina,Excessive Drinking,1575.026491,2051
+North Dakota,Excessive Drinking,1136.761332,259
+Ohio,Excessive Drinking,1604.378657,1798
+Oklahoma,Excessive Drinking,1030.033819,873
+Oregon,Excessive Drinking,660.8814261,695
+Pennsylvania,Excessive Drinking,1320.220655,1583
+Rhode Island,Excessive Drinking,101.2977524,105
+South Carolina,Excessive Drinking,713.6765439,1605
+South Dakota,Excessive Drinking,1183.035554,237
+Tennessee,Excessive Drinking,1320.731759,1264
+Texas,Excessive Drinking,4558.42076,4917
+Utah,Excessive Drinking,338.4104729,303
+Vermont,Excessive Drinking,276.5979178,104
+Virginia,Excessive Drinking,2275.192725,1169
+Washington,Excessive Drinking,691.7532838,852
+West Virginia,Excessive Drinking,676.2617488,385
+Wisconsin,Excessive Drinking,1788.046996,1043
+Wyoming,Excessive Drinking,433.5712324,219
+Alabama,Smoke,1339.278504,1284
+Alaska,Smoke,603.3870327,139
+Arizona,Smoke,247.258666,1177
+Arkansas,Smoke,1529.163651,690
+California,Smoke,701.3127864,5266
+Colorado,Smoke,915.0398436,996
+Connecticut,Smoke,94.98895934,447
+Delaware,Smoke,48.1513188,183
+District of Columbia,Smoke,15.96559215,39
+Florida,Smoke,1285.804787,3467
+Georgia,Smoke,2903.75868,1548
+Hawaii,Smoke,62.60353547,166
+Idaho,Smoke,622.533261,342
+Illinois,Smoke,1615.269618,1636
+Indiana,Smoke,1833.751121,819
+Iowa,Smoke,1568.540869,455
+Kansas,Smoke,1699.462887,445
+Kentucky,Smoke,2674.929757,984
+Louisiana,Smoke,1394.747154,1252
+Maine,Smoke,257.9636455,278
+Maryland,Smoke,346.0934001,734
+Massachusetts,Smoke,185.7813272,537
+Michigan,Smoke,1457.997039,1432
+Minnesota,Smoke,1303.595109,571
+Mississippi,Smoke,1668.107306,663
+Missouri,Smoke,2371.630117,1433
+Montana,Smoke,944.6638737,439
+Nebraska,Smoke,1360.084915,390
+Nevada,Smoke,298.3605357,467
+New Hampshire,Smoke,148.4627272,181
+New Jersey,Smoke,295.4359839,637
+New Mexico,Smoke,563.1984957,567
+New York,Smoke,966.690045,1229
+North Carolina,Smoke,1747.506506,2051
+North Dakota,Smoke,906.3440139,259
+Ohio,Smoke,1689.554028,1798
+Oklahoma,Smoke,1466.29212,873
+Oregon,Smoke,554.8956988,695
+Pennsylvania,Smoke,1201.952311,1583
+Rhode Island,Smoke,66.48484105,105
+South Carolina,Smoke,830.1004713,1605
+South Dakota,Smoke,1125.08077,237
+Tennessee,Smoke,2122.684344,1264
+Texas,Smoke,3795.451786,4917
+Utah,Smoke,291.4378692,303
+Vermont,Smoke,204.6117547,104
+Virginia,Smoke,2259.828624,1169
+Washington,Smoke,548.4080682,852
+West Virginia,Smoke,1258.544282,385
+Wisconsin,Smoke,1158.24176,1043
+Wyoming,Smoke,369.2847191,219

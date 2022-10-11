@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title":"Camparison of Deaths of Drinking and Deaths of Covid in 11 States",
     "width":500,
-    "height":500,
+    "height":400,
     "data": {
       "url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset.csv"
     },
@@ -21,6 +21,7 @@
             "title": "Number of Death"
           },
           "tooltip":[
+            {"field": "state", "type": "nominal", "title": "State"},
             {"field": "num_deaths", "type": "quantitative", "title": "Covid Death"},
             {"field": "num_alcohol_impaired_driving_deaths", "type": "quantitative", "title": "Drinking Death"}
           ]
@@ -40,6 +41,7 @@
             "tickCount": 3
         }},
             "tooltip":[
+            {"field": "state", "type": "nominal", "title": "State"},
             {"field": "num_deaths", "type": "quantitative", "title": "Covid Death"},
             {"field": "num_alcohol_impaired_driving_deaths", "type": "quantitative", "title": "Drinking Death"}
           ]

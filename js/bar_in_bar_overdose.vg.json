@@ -21,6 +21,7 @@
             "title": "Number of Death"
           },
           "tooltip":[
+            {"field": "state", "type": "nominal", "title": "State"},
             {"field": "num_deaths", "type": "quantitative", "title": "Covid Death"},
             {"field": "num_drug_overdose_deaths", "type": "quantitative", "title": "Overdose Death"}
           ]
@@ -40,6 +41,7 @@
             "tickCount": 3
         }},
           "tooltip":[
+            {"field": "state", "type": "nominal", "title": "State"},
             {"field": "num_deaths", "type": "quantitative", "title": "Covid Death"},
             {"field": "num_drug_overdose_deaths", "type": "quantitative", "title": "Overdose Death"}
           ]

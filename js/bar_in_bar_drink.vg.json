@@ -16,16 +16,20 @@
         "encoding": {
           "y": {"field": "state", "type": "ordinal", "sort": "-x","title":"State",
           "axis":{
+            "titleColor":"white",
+            "titleFontSize":16,
             "labelColor":"white",
-            "titleColor":"white"
+            "labelFontSize":14
           }},
           "x": {
             "aggregate": "sum",
             "field": "num_alcohol_impaired_driving_deaths",
             "title": "Number of Death",
             "axis":{
+              "titleColor":"white",
+              "titleFontSize":16,
               "labelColor":"white",
-              "titleColor":"white"
+              "labelFontSize":14
             }
           },
           "tooltip":[

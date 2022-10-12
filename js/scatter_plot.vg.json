@@ -19,14 +19,18 @@
       },"title":"Vaccinated Percentage",
     "axis":{
       "titleColor":"white",
-      "labelColor":"white"
+      "titleFontSize":16,
+      "labelColor":"white",
+      "labelFontSize":16
     }},
       "y": {"field": "life_expectancy", "type": "quantitative", "scale":{
         "domain":[70,100],"domainMax":90
       },"title":"Life Expectancy",
       "axis":{
         "titleColor":"white",
-        "labelColor":"white"
+        "titleFontSize":16,
+        "labelColor":"white",
+        "labelFontSize":16
       }},
       "color":{
         "field":"state","type": "nominal",
@@ -34,7 +38,7 @@
           "title":"State",
           "titleColor":"white",
           "labelColor":"white",
-          "labelFontSize":15,
+          "labelFontSize":17,
           "titleFontSize":18
         }
       },

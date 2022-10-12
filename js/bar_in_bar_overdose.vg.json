@@ -16,16 +16,20 @@
         "encoding": {
           "y": {"field": "state", "type": "ordinal", "title": "State",
           "axis":{
-            "labelColor":"white",
-            "titleColor":"white"
+            "titleColor":"white",
+              "titleFontSize":16,
+              "labelColor":"white",
+              "labelFontSize":14
           }},
           "x": {
             "aggregate": "sum",
             "field": "num_drug_overdose_deaths",
             "title": "Number of Death",
             "axis":{
+              "titleColor":"white",
+              "titleFontSize":16,
               "labelColor":"white",
-              "titleColor":"white"
+              "labelFontSize":14
             }
           },
           "tooltip":[

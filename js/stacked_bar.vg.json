@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width":640,
+    "width":690,
     "view": {"stroke":"black"},
     "height":250,
     "data": {"url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset_2.csv"},
@@ -37,8 +37,10 @@
         "title": "State",
         "sort":"-y",
         "axis":{
-          "labelColor":"white",
           "titleColor":"white",
+          "titleFontSize":16,
+          "labelColor":"white",
+          "labelFontSize":12,
           "labelAngle":0
         }
       },
@@ -48,8 +50,10 @@
         "type": "quantitative",
         "title": "Sum of Cases",
         "axis":{
+          "titleColor":"white",
+          "titleFontSize":16,
           "labelColor":"white",
-          "titleColor":"white"
+          "labelFontSize":13
         }
       }
     },

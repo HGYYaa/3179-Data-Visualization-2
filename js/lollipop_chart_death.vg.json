@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "view": {"stroke":"black"},
-    "width":580,
+    "width":560,
     "height":300,
     "data": {
       "url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset.csv"
@@ -17,7 +17,9 @@
           "y": {"field": "state", "type": "ordinal", "title": "State","sort":"-x",
         "axis":{
           "titleColor":"white",
-          "labelColor":"white"
+          "titleFontSize":16,
+          "labelColor":"white",
+          "labelFontSize":14
         }},
           "x": {
             "aggregate": "sum",
@@ -25,7 +27,9 @@
             "title": "Number of Deaths",
             "axis":{
               "titleColor":"white",
-              "labelColor":"white"
+              "titleFontSize":16,
+              "labelColor":"white",
+              "labelFontSize":14
             }
           },
           "tooltip":[

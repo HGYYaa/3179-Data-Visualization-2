@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title":"Number of People Vaccinated in each State",
-    "width":500,
+    "view": {"stroke":"black"},
+    "width":580,
     "height":300,
     "data": {
       "url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset.csv"
@@ -14,17 +14,26 @@
       {
         "mark": {"type": "bar","size":10},
         "encoding": {
-          "y": {"field": "state", "type": "ordinal", "title": "State","sort":"-x"},
+          "y": {"field": "state", "type": "ordinal", "title": "State","sort":"-x",
+        "axis":{
+          "titleColor":"white",
+          "labelColor":"white"
+        }},
           "x": {
             "aggregate": "sum",
             "field": "num_deaths",
-            "title": "Number of Deaths"
+            "title": "Number of Deaths",
+            "axis":{
+              "titleColor":"white",
+              "labelColor":"white"
+            }
           },
           "tooltip":[
             {"field": "state", "type": "nominal", "title": "State"},
             {"field": "num_deaths", "type": "quantitative", "title": "Number of Deaths"}
           ],
-          "color":{"field":"state"}
+          "color":{"field":"state",
+          "legend":null}
         }
       },
       {
@@ -43,5 +52,6 @@
             "color":{"field":"state"}
           }
       }
-    ]
+    ],
+    "background":"black"
 }

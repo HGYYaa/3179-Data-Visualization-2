@@ -1,12 +1,14 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {"url": "https://raw.githubusercontent.com/HGYYaa/3179PRO2/main/data/us_county_sociohealth_data.csv"},
-    "title":"Vaccinated Percentage VS Life Expectancy",
-    "width":300,
-    "height":300,
+    "view": {"stroke":"black"},
+    "width":400,
+    "height":400,
     "mark":{
-      "type":"point",
-      "size":100
+      "type":"circle",
+      "size":300,
+      "filled": true,
+      "fillOpacity":{"expr": "10"}
     },
     "transform": [
       {"filter": "datum.num_deaths > 15000"}
@@ -14,14 +16,26 @@
     "encoding": {
       "x": {"field": "percent_vaccinated", "type": "quantitative", "scale":{
         "domain":[20,60]
-      },"title":"Vaccinated Percentage"},
+      },"title":"Vaccinated Percentage",
+    "axis":{
+      "titleColor":"white",
+      "labelColor":"white"
+    }},
       "y": {"field": "life_expectancy", "type": "quantitative", "scale":{
         "domain":[70,100],"domainMax":90
-      },"title":"Life Expectancy"},
+      },"title":"Life Expectancy",
+      "axis":{
+        "titleColor":"white",
+        "labelColor":"white"
+      }},
       "color":{
         "field":"state","type": "nominal",
         "legend":{
-          "title":"State"
+          "title":"State",
+          "titleColor":"white",
+          "labelColor":"white",
+          "labelFontSize":15,
+          "titleFontSize":18
         }
       },
       "tooltip":[
@@ -29,6 +43,7 @@
         {"field": "percent_vaccinated", "type": "quantitative", "title": "Vaccinated Percentage"},
         {"field": "life_expectancy", "type": "quantitative", "title": "Life Expectancy","format":".1f"}
       ]
-    }
+    },
+    "background":"black"
 }
   

@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title":"Top 10 States in US",
-  "width": 250,
-  "height": 250,
+  "view": {"stroke":"black"},
+  "width": 350,
+  "height": 350,
   "data": {
     "values": [
       {"State": "California", "value": 39613493},
@@ -20,10 +20,17 @@
   "mark": {"type": "arc", "innerRadius": 50},
   "encoding": {
     "theta": {"field": "value", "type": "quantitative"},
-    "color": {"field": "State", "type": "nominal"},
+    "color": {"field": "State", "type": "nominal",
+  "legend":{
+    "titleColor":"white",
+    "labelColor":"white",
+    "labelFontSize":15,
+    "titleFontSize":18
+  }},
     "tooltip":[
       {"field": "State", "type": "nominal", "title": "State"},
       {"field": "value", "type": "quantitative", "title": "Total Population"}
     ]
-  }
+  },
+  "background":"balck"
 }

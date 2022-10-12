@@ -1,0 +1,103 @@
+state,variable,value
+Alabama,num_alcohol_impaired_driving_deaths,1284.0
+Alaska,num_alcohol_impaired_driving_deaths,139.0
+Arizona,num_alcohol_impaired_driving_deaths,1177.0
+Arkansas,num_alcohol_impaired_driving_deaths,690.0
+California,num_alcohol_impaired_driving_deaths,5266.0
+Colorado,num_alcohol_impaired_driving_deaths,996.0
+Connecticut,num_alcohol_impaired_driving_deaths,447.0
+Delaware,num_alcohol_impaired_driving_deaths,183.0
+District of Columbia,num_alcohol_impaired_driving_deaths,39.0
+Florida,num_alcohol_impaired_driving_deaths,3467.0
+Georgia,num_alcohol_impaired_driving_deaths,1548.0
+Hawaii,num_alcohol_impaired_driving_deaths,166.0
+Idaho,num_alcohol_impaired_driving_deaths,342.0
+Illinois,num_alcohol_impaired_driving_deaths,1636.0
+Indiana,num_alcohol_impaired_driving_deaths,819.0
+Iowa,num_alcohol_impaired_driving_deaths,455.0
+Kansas,num_alcohol_impaired_driving_deaths,445.0
+Kentucky,num_alcohol_impaired_driving_deaths,984.0
+Louisiana,num_alcohol_impaired_driving_deaths,1252.0
+Maine,num_alcohol_impaired_driving_deaths,278.0
+Maryland,num_alcohol_impaired_driving_deaths,734.0
+Massachusetts,num_alcohol_impaired_driving_deaths,537.0
+Michigan,num_alcohol_impaired_driving_deaths,1432.0
+Minnesota,num_alcohol_impaired_driving_deaths,571.0
+Mississippi,num_alcohol_impaired_driving_deaths,663.0
+Missouri,num_alcohol_impaired_driving_deaths,1433.0
+Montana,num_alcohol_impaired_driving_deaths,439.0
+Nebraska,num_alcohol_impaired_driving_deaths,390.0
+Nevada,num_alcohol_impaired_driving_deaths,467.0
+New Hampshire,num_alcohol_impaired_driving_deaths,181.0
+New Jersey,num_alcohol_impaired_driving_deaths,637.0
+New Mexico,num_alcohol_impaired_driving_deaths,567.0
+New York,num_alcohol_impaired_driving_deaths,1229.0
+North Carolina,num_alcohol_impaired_driving_deaths,2051.0
+North Dakota,num_alcohol_impaired_driving_deaths,259.0
+Ohio,num_alcohol_impaired_driving_deaths,1798.0
+Oklahoma,num_alcohol_impaired_driving_deaths,873.0
+Oregon,num_alcohol_impaired_driving_deaths,695.0
+Pennsylvania,num_alcohol_impaired_driving_deaths,1583.0
+Rhode Island,num_alcohol_impaired_driving_deaths,105.0
+South Carolina,num_alcohol_impaired_driving_deaths,1605.0
+South Dakota,num_alcohol_impaired_driving_deaths,237.0
+Tennessee,num_alcohol_impaired_driving_deaths,1264.0
+Texas,num_alcohol_impaired_driving_deaths,4917.0
+Utah,num_alcohol_impaired_driving_deaths,303.0
+Vermont,num_alcohol_impaired_driving_deaths,104.0
+Virginia,num_alcohol_impaired_driving_deaths,1169.0
+Washington,num_alcohol_impaired_driving_deaths,852.0
+West Virginia,num_alcohol_impaired_driving_deaths,385.0
+Wisconsin,num_alcohol_impaired_driving_deaths,1043.0
+Wyoming,num_alcohol_impaired_driving_deaths,219.0
+Alabama,num_drug_overdose_deaths,2246.0
+Alaska,num_drug_overdose_deaths,334.0
+Arizona,num_drug_overdose_deaths,4583.0
+Arkansas,num_drug_overdose_deaths,1096.0
+California,num_drug_overdose_deaths,14824.0
+Colorado,num_drug_overdose_deaths,2836.0
+Connecticut,num_drug_overdose_deaths,3112.0
+Delaware,num_drug_overdose_deaths,1021.0
+District of Columbia,num_drug_overdose_deaths,833.0
+Florida,num_drug_overdose_deaths,14427.0
+Georgia,num_drug_overdose_deaths,4003.0
+Hawaii,num_drug_overdose_deaths,607.0
+Idaho,num_drug_overdose_deaths,624.0
+Illinois,num_drug_overdose_deaths,7732.0
+Indiana,num_drug_overdose_deaths,4893.0
+Iowa,num_drug_overdose_deaths,712.0
+Kansas,num_drug_overdose_deaths,784.0
+Kentucky,num_drug_overdose_deaths,4063.0
+Louisiana,num_drug_overdose_deaths,3094.0
+Maine,num_drug_overdose_deaths,1122.0
+Maryland,num_drug_overdose_deaths,6615.0
+Massachusetts,num_drug_overdose_deaths,6630.0
+Michigan,num_drug_overdose_deaths,7542.0
+Minnesota,num_drug_overdose_deaths,1862.0
+Mississippi,num_drug_overdose_deaths,814.0
+Missouri,num_drug_overdose_deaths,4682.0
+Montana,num_drug_overdose_deaths,267.0
+Nebraska,num_drug_overdose_deaths,290.0
+Nevada,num_drug_overdose_deaths,1992.0
+New Hampshire,num_drug_overdose_deaths,1400.0
+New Jersey,num_drug_overdose_deaths,7641.0
+New Mexico,num_drug_overdose_deaths,1502.0
+New York,num_drug_overdose_deaths,15338.0
+North Carolina,num_drug_overdose_deaths,6554.0
+North Dakota,num_drug_overdose_deaths,144.0
+Ohio,num_drug_overdose_deaths,13389.0
+Oklahoma,num_drug_overdose_deaths,2175.0
+Oregon,num_drug_overdose_deaths,1545.0
+Pennsylvania,num_drug_overdose_deaths,14421.0
+Rhode Island,num_drug_overdose_deaths,963.0
+South Carolina,num_drug_overdose_deaths,2950.0
+South Dakota,num_drug_overdose_deaths,94.0
+Tennessee,num_drug_overdose_deaths,5097.0
+Texas,num_drug_overdose_deaths,8327.0
+Utah,num_drug_overdose_deaths,1859.0
+Vermont,num_drug_overdose_deaths,409.0
+Virginia,num_drug_overdose_deaths,4126.0
+Washington,num_drug_overdose_deaths,3390.0
+West Virginia,num_drug_overdose_deaths,2661.0
+Wisconsin,num_drug_overdose_deaths,3160.0
+Wyoming,num_drug_overdose_deaths,177.0

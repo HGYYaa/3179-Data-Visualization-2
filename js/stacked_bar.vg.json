@@ -74,7 +74,7 @@
         },
         "encoding": {
             "text":{
-                "field":"value","type": "quantitative","format":".0f"
+                "field":"value","aggregate": "sum","type": "quantitative","format":".0f"
             }
         }
       }

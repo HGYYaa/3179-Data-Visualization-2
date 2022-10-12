@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "The Covid 19 Cases in US in 2020",
+  "view": {"stroke":"black"},
   "width": 500,
   "height": 300,
   "layer": [
@@ -46,5 +46,6 @@
         "color": {"value": "#FFC0CB"}
       }
     }
-  ]
+  ],
+  "background":"black"
 }

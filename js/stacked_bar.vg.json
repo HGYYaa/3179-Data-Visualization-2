@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title":"Unhealthy Life Habit Sum in 11 States",
-    "width":400,
-    "height":400,
+    "width":640,
+    "view": {"stroke":"black"},
+    "height":250,
     "data": {"url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset_2.csv"},
     "params": [
         {
@@ -27,7 +27,7 @@
         }
       ],
     "transform": [
-        {"filter": "datum.num_alcohol_impaired_driving_deaths > 1300"},
+        {"filter": "datum.num_alcohol_impaired_driving_deaths > 1432"},
         {"filter": "Habit_selection == null || datum.variable == Habit_selection"}
     ],
     "encoding": {
@@ -35,13 +35,22 @@
         "field": "state",
         "type": "ordinal",
         "title": "State",
-        "sort":"-y"
+        "sort":"-y",
+        "axis":{
+          "labelColor":"white",
+          "titleColor":"white",
+          "labelAngle":0
+        }
       },
       "y": {
         "field": "value",
         "aggregate": "sum",
         "type": "quantitative",
-        "title": "Sum of Cases"
+        "title": "Sum of Cases",
+        "axis":{
+          "labelColor":"white",
+          "titleColor":"white"
+        }
       }
     },
     "layer": [
@@ -61,7 +70,12 @@
                 "domain": ["Obesity", "Excessive Drinking","Insufficient Sleep",  "Smoke"],
                 "range": [ "#FFD700", "#87CEFA","#F08080","#c7c7c7"]
             },
-            "title": "Unhealthy Life Habit"
+            "title": "Unhealthy Life Habit",
+            "legend":{
+              "titleColor":"white",
+              "orient": "top",
+              "labelColor":"white"
+            }
             }
         }
       },
@@ -70,6 +84,7 @@
             "type": "text",
             "align":"center",
             "baseline":"middle",
+            "color":"white",
             "dy":-5
         },
         "encoding": {
@@ -78,7 +93,8 @@
             }
         }
       }
-    ]
+    ],
+    "background":"black"
   }
   
 

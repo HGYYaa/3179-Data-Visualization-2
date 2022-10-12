@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title":"Camparison of Deaths of Drinking and Deaths of Covid in 11 States",
-    "width":250,
+    "view": {"stroke":"black"},
+    "width":500,
     "height":250,
     "data": {
       "url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset.csv"
@@ -12,13 +12,21 @@
     ],
     "layer": [
       {
-        "mark": {"type": "bar","color": "#7B68EE", "size":20},
+        "mark": {"type": "bar","color": "#7B68EE", "size":18},
         "encoding": {
-          "y": {"field": "state", "type": "ordinal", "sort": "-x","title":"State"},
+          "y": {"field": "state", "type": "ordinal", "sort": "-x","title":"State",
+          "axis":{
+            "labelColor":"white",
+            "titleColor":"white"
+          }},
           "x": {
             "aggregate": "sum",
             "field": "num_alcohol_impaired_driving_deaths",
-            "title": "Number of Death"
+            "title": "Number of Death",
+            "axis":{
+              "labelColor":"white",
+              "titleColor":"white"
+            }
           },
           "tooltip":[
             {"field": "state", "type": "nominal", "title": "State"},
@@ -47,5 +55,6 @@
           ]
         }
       }
-    ]
+    ],
+    "background":"black"
 }

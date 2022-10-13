@@ -61,8 +61,8 @@
                 "title": "Population density",
                 "direction": "horizontal",
                 "orient":"top-right",
-                "gradientLength": 250,
-                "titleFontSize": 12,
+                "gradientLength": 300,
+                "titleFontSize": 16,
                 "titleColor":"white",
                 "padding":-40
               }

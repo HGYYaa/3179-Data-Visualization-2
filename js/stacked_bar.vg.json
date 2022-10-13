@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width":690,
+    "width":740,
     "view": {"stroke":"black"},
-    "height":250,
+    "height":500,
     "data": {"url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset_2.csv"},
     "params": [
         {
@@ -41,7 +41,8 @@
           "titleFontSize":16,
           "labelColor":"white",
           "labelFontSize":12,
-          "labelAngle":0
+          "labelAngle":0,
+          "grid": false
         }
       },
       "y": {
@@ -53,7 +54,8 @@
           "titleColor":"white",
           "titleFontSize":16,
           "labelColor":"white",
-          "labelFontSize":13
+          "labelFontSize":13,
+          "grid": false
         }
       }
     },
@@ -78,7 +80,9 @@
             "legend":{
               "titleColor":"white",
               "orient": "top",
-              "labelColor":"white"
+              "labelColor":"white",
+              "titleFontSize":16,
+              "labelFontSize":13
             }
             }
         }

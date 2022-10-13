@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width":740,
+    "width":700,
     "view": {"stroke":"black"},
     "height":500,
     "data": {"url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset_2.csv"},

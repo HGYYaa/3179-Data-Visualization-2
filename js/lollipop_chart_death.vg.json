@@ -69,12 +69,41 @@
             {"field": "state", "type": "nominal", "title": "State"},
             {"field": "num_deaths", "type": "quantitative", "title": "Number of Deaths"}
           ],
-          "color":{"field":"state",
-          "legend":null}
+          "color":{
+            "legend":null,
+            "field":"state",
+            "type": "nominal",
+            "scale":{
+              "domain":[
+                  "California",
+                  "Texas",
+                  "Florida",
+                  "Ohio",
+                  "Pennsylvania",
+                  "Illinois",
+                  "North Carolina",
+                  "Georgia",
+                  "Missouri",
+                  "South Carolina"
+              ],
+              "range":[
+                "#7B68EE",
+                "#A9A9A9",
+                "#FFA500",
+                "#A9A9A9",
+                "#A9A9A9",
+                "#A9A9A9",
+                "#A9A9A9",
+                "#FF1493",
+                "#A9A9A9",
+                "#A9A9A9"
+              ]
+            }
+          }
         }
       },
       {
-        "mark": {"type": "point", "size": 300,"color": "#3CB371","filled": true},
+        "mark": {"type": "point", "size": 300, "filled": true},
         "encoding": {
             "y": {"field": "state", "type": "ordinal", "title": "State", "sort":"-x"},
             "x": {
@@ -86,7 +115,37 @@
               {"field": "state", "type": "nominal", "title": "State"},
               {"field": "num_deaths", "type": "quantitative", "title": "Number of Deaths"}
             ],
-            "color":{"field":"state"}
+            "color":{
+              "legend":null,
+              "field":"state",
+              "type": "nominal",
+              "scale":{
+                "domain":[
+                    "California",
+                    "Texas",
+                    "Florida",
+                    "Ohio",
+                    "Pennsylvania",
+                    "Illinois",
+                    "North Carolina",
+                    "Georgia",
+                    "Missouri",
+                    "South Carolina"
+                ],
+                "range":[
+                  "#7B68EE",
+                  "#A9A9A9",
+                  "#FFA500",
+                  "#A9A9A9",
+                  "#A9A9A9",
+                  "#A9A9A9",
+                  "#A9A9A9",
+                  "#FF1493",
+                  "#A9A9A9",
+                  "#A9A9A9"
+                ]
+              }
+            }
           }
       },
       {

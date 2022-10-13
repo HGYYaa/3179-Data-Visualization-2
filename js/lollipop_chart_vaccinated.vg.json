@@ -69,7 +69,37 @@
             {"field": "state", "type": "nominal", "title": "State"},
             {"field": "percent_vaccinated", "type": "quantitative", "title": "Number of People Vaccinated"}
           ],
-          "color":{"field":"state","legend":null}
+          "color":{
+            "legend":null,
+            "field":"state",
+            "type": "nominal",
+            "scale":{
+              "domain":[
+                  "California",
+                  "Texas",
+                  "Florida",
+                  "Ohio",
+                  "Pennsylvania",
+                  "Illinois",
+                  "North Carolina",
+                  "Georgia",
+                  "Missouri",
+                  "South Carolina"
+              ],
+              "range":[
+                "#7B68EE",
+                "#A9A9A9",
+                "#FFA500",
+                "#A9A9A9",
+                "#A9A9A9",
+                "#A9A9A9",
+                "#A9A9A9",
+                "#FF1493",
+                "#A9A9A9",
+                "#A9A9A9"
+              ]
+            }
+          }
         }
       },
       {
@@ -85,7 +115,37 @@
               {"field": "state", "type": "nominal", "title": "State"},
               {"field": "percent_vaccinated", "type": "quantitative", "title": "Number of People Vaccinated"}
             ],
-            "color":{"field":"state"}
+            "color":{
+              "legend":null,
+              "field":"state",
+              "type": "nominal",
+              "scale":{
+                "domain":[
+                    "California",
+                    "Texas",
+                    "Florida",
+                    "Ohio",
+                    "Pennsylvania",
+                    "Illinois",
+                    "North Carolina",
+                    "Georgia",
+                    "Missouri",
+                    "South Carolina"
+                ],
+                "range":[
+                  "#7B68EE",
+                  "#A9A9A9",
+                  "#FFA500",
+                  "#A9A9A9",
+                  "#A9A9A9",
+                  "#A9A9A9",
+                  "#A9A9A9",
+                  "#FF1493",
+                  "#A9A9A9",
+                  "#A9A9A9"
+                ]
+              }
+            }
           }
       },
       {

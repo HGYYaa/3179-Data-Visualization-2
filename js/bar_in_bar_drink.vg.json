@@ -1,8 +1,15 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "view": {"stroke":"black"},
+    "title":"Drinking",
+    "config": {
+      "title": {
+        "color":"white",
+        "fontSize":20
+      }
+    },
     "width":500,
-    "height":250,
+    "height":300,
     "data": {
       "url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset.csv"
     },

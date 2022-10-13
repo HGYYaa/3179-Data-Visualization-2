@@ -2,8 +2,8 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "view": {"stroke":"black"},
     "title": "Population Density of each County in US",
-    "width": 650,
-    "height": 300,
+    "width": 700,
+    "height": 400,
     "config": {
         "numberFormat": ".3f"
     },

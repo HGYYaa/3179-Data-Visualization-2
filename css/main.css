@@ -17,8 +17,7 @@ body *{
 
 .MainParagraph {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     color: white;
     text-align: center;
     word-spacing: 4px;
@@ -32,7 +31,7 @@ body *{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
     font-size: 45px;
-    text-decoration: overline underline;
+    text-decoration: overline;
     color: white;
     text-align: center;
     word-spacing: 4px;
@@ -45,7 +44,7 @@ body *{
 .GraphParagrapgh{
     color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .page {

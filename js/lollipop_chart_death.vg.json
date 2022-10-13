@@ -12,7 +12,17 @@
     ],
     "layer": [
       {
-        "mark": {"type": "bar","size":10},
+        "params": [
+          {
+            "name": "highlight",
+            "select": {"type": "point","on": "mouseover"}
+          },
+          {
+            "name": "select",
+            "select": "point"
+          }
+        ],
+        "mark": {"type": "bar","size":10, "stroke": "white"},
         "encoding": {
           "y": {"field": "state", "type": "ordinal", "title": "State","sort":"-x",
         "axis":{
@@ -32,6 +42,28 @@
               "labelFontSize":14,
               "grid": false
             }
+          },
+          "fillOpacity": {
+            "condition": {
+              "param": "select",
+              "value": 1
+            },
+            "value": 0.3
+          },
+          "strokeWidth": {
+            "condition": [
+              {
+                "param": "select",
+                "empty": false,
+                "value": 1
+              },
+              {
+                "param": "highlight",
+                "empty": false,
+                "value": 1
+              }
+            ],
+            "value": 0
           },
           "tooltip":[
             {"field": "state", "type": "nominal", "title": "State"},

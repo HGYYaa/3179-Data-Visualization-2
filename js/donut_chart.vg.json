@@ -3,6 +3,9 @@
   "view": {"stroke":"black"},
   "width": 400,
   "height": 500,
+  "params": [
+    {"name": "hover", "select": {"type": "point", "on": "mouseover"}}
+  ],
   "data": {
     "values": [
       {"State": "California", "value": 39613493},
@@ -17,7 +20,7 @@
       {"State": "Michigan", "value": 9992427}
     ]
   },
-  "mark": {"type": "arc", "innerRadius": 50},
+  "mark": {"type": "arc", "innerRadius": 100, "stroke": "white"},
   "encoding": {
     "theta": {"field": "value", "type": "quantitative"},
     "color": {"field": "State", "type": "nominal",
@@ -30,7 +33,11 @@
     "tooltip":[
       {"field": "State", "type": "nominal", "title": "State"},
       {"field": "value", "type": "quantitative", "title": "Total Population"}
-    ]
+    ],
+    "strokeWidth": {
+      "condition": [{"param": "hover", "empty": false, "value": 3}],
+      "value": 0
+    }
   },
   "background":"balck"
 }

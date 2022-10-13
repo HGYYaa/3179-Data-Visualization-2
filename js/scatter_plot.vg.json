@@ -19,9 +19,9 @@
       },"title":"Vaccinated Percentage",
     "axis":{
       "titleColor":"white",
-      "titleFontSize":16,
+      "titleFontSize":18,
       "labelColor":"white",
-      "labelFontSize":16
+      "labelFontSize":17
     }},
       "y": {"field": "life_expectancy", "type": "quantitative", "scale":{
         "domain":[70,100],"domainMax":90

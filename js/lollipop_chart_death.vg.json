@@ -91,6 +91,7 @@
       },
       {
         "transform": [
+          {"filter":"datum.state == 'California'"},
           {
             "calculate": "'California has the highest;number of death due to Covid-19'",
             "as": "text_annotation_raw"
@@ -109,6 +110,7 @@
       },
       {
         "transform": [
+          {"filter":"datum.state == 'California'"},
           {
             "calculate": "'Georgia is third least;number of death due to Covid-19'",
             "as": "text_annotation_raw"

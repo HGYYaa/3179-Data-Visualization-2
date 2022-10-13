@@ -26,7 +26,7 @@
       "encoding": {
         "theta": {"field": "value", "type": "quantitative"},
         "color": {"field": "State", "type": "nominal",
-"legend":null},
+      "legend":null},
         "tooltip":[
           {"field": "State", "type": "nominal", "title": "State"},
           {"field": "value", "type": "quantitative", "title": "Total Population"}
@@ -34,7 +34,8 @@
         "strokeWidth": {
           "condition": [{"param": "hover", "empty": false, "value": 3}],
           "value": 0
-        }
+        },
+        "order": {"field": "value", "type": "quantitative", "sort": "descending"}
       }
     },
     {
@@ -66,7 +67,7 @@
           "as": "text_annotation"
         }
       ],
-      "mark": {"type": "text", "dx": -70, "dy": -120},
+      "mark": {"type": "text", "dx": 140, "dy": 50},
       "encoding": {
         "text": {"field": "text_annotation"},
         "color": {"value": "#FFFFFF"},
@@ -84,7 +85,7 @@
           "as": "text_annotation"
         }
       ],
-      "mark": {"type": "text", "dx": -145, "dy": -40},
+      "mark": {"type": "text", "dx": -130, "dy": 80},
       "encoding": {
         "text": {"field": "text_annotation"},
         "color": {"value": "#FFFFFF"},
@@ -102,7 +103,7 @@
           "as": "text_annotation"
         }
       ],
-      "mark": {"type": "text", "dx": -145, "dy": 20},
+      "mark": {"type": "text", "dx": -145, "dy": -40},
       "encoding": {
         "text": {"field": "text_annotation"},
         "color": {"value": "#FFFFFF"},
@@ -120,7 +121,7 @@
           "as": "text_annotation"
         }
       ],
-      "mark": {"type": "text", "dx": -135, "dy": 70},
+      "mark": {"type": "text", "dx": -80, "dy": -130},
       "encoding": {
         "text": {"field": "text_annotation"},
         "color": {"value": "#FFFFFF"},
@@ -138,7 +139,7 @@
           "as": "text_annotation"
         }
       ],
-      "mark": {"type": "text", "dx": -80, "dy": 130},
+      "mark": {"type": "text", "dx": -60, "dy": 140},
       "encoding": {
         "text": {"field": "text_annotation"},
         "color": {"value": "#FFFFFF"},
@@ -156,7 +157,7 @@
           "as": "text_annotation"
         }
       ],
-      "mark": {"type": "text", "dx": 0, "dy": 160},
+      "mark": {"type": "text", "dx": -30, "dy": -160},
       "encoding": {
         "text": {"field": "text_annotation"},
         "color": {"value": "#FFFFFF"},
@@ -174,7 +175,7 @@
           "as": "text_annotation"
         }
       ],
-      "mark": {"type": "text", "dx": 55, "dy": 135},
+      "mark": {"type": "text", "dx": -150, "dy": 20},
       "encoding": {
         "text": {"field": "text_annotation"},
         "color": {"value": "#FFFFFF"},
@@ -192,7 +193,7 @@
           "as": "text_annotation"
         }
       ],
-      "mark": {"type": "text", "dx": 105, "dy": 100},
+      "mark": {"type": "text", "dx": -130, "dy": -100},
       "encoding": {
         "text": {"field": "text_annotation"},
         "color": {"value": "#FFFFFF"},
@@ -210,7 +211,7 @@
           "as": "text_annotation"
         }
       ],
-      "mark": {"type": "text", "dx": 140, "dy": 20},
+      "mark": {"type": "text", "dx": 50, "dy": 140},
       "encoding": {
         "text": {"field": "text_annotation"},
         "color": {"value": "#FFFFFF"},

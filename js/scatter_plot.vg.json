@@ -45,7 +45,8 @@
           "titleColor":"white",
           "labelColor":"white",
           "labelFontSize":17,
-          "titleFontSize":18
+          "titleFontSize":18,
+          "orient": "left"
         }
       },
       "opacity": {

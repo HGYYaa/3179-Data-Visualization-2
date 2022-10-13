@@ -88,6 +88,42 @@
             ],
             "color":{"field":"state"}
           }
+      },
+      {
+        "transform": [
+          {
+            "calculate": "'California has the highest;number of death due to Covid-19'",
+            "as": "text_annotation_raw"
+          },
+          {
+            "calculate": "split(datum.text_annotation_raw,';')",
+            "as": "text_annotation"
+          }
+        ],
+        "mark": {"type": "text", "dx": 150, "dy": -40},
+        "encoding": {
+          "text": {"field": "text_annotation"},
+          "color": {"value": "#FFFFFF"},
+          "size": {"value": 15}
+        }
+      },
+      {
+        "transform": [
+          {
+            "calculate": "'Georgia is third least;number of death due to Covid-19'",
+            "as": "text_annotation_raw"
+          },
+          {
+            "calculate": "split(datum.text_annotation_raw,';')",
+            "as": "text_annotation"
+          }
+        ],
+        "mark": {"type": "text", "dx": 80, "dy": 70},
+        "encoding": {
+          "text": {"field": "text_annotation"},
+          "color": {"value": "#FFFFFF"},
+          "size": {"value": 15}
+        }
       }
     ],
     "background":"black"

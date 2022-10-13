@@ -1,108 +1,127 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width":700,
-    "view": {"stroke":"black"},
-    "height":500,
-    "data": {"url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset_2.csv"},
-    "params": [
-        {
-          "name": "Habit_selection",
-          "bind": {
-            "input": "select",
-            "options": [
-            null,
-            "Obesity",
-            "Excessive Drinking",
-            "Insufficient Sleep",
-            "Smoke"
-            ],
-            "labels":[
-            "Show All",
-            "Obesity",
-            "Excessive Drinking",
-            "Insufficient Sleep",
-            "Smoke"],
-            "name": "Unhealthy Habit Selection: "
-          }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width":700,
+  "view": {"stroke":"black"},
+  "height":500,
+  "data": {"url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset_2.csv"},
+  "params": [
+      {
+        "name": "Habit_selection",
+        "bind": {
+          "input": "select",
+          "options": [
+          null,
+          "Obesity",
+          "Excessive Drinking",
+          "Insufficient Sleep",
+          "Smoke"
+          ],
+          "labels":[
+          "Show All",
+          "Obesity",
+          "Excessive Drinking",
+          "Insufficient Sleep",
+          "Smoke"],
+          "name": "Unhealthy Habit Selection: "
         }
-      ],
-    "transform": [
-        {"filter": "datum.num_alcohol_impaired_driving_deaths > 1432"},
-        {"filter": "Habit_selection == null || datum.variable == Habit_selection"}
+      }
     ],
-    "encoding": {
-      "x": {
-        "field": "state",
-        "type": "ordinal",
-        "title": "State",
-        "sort":"-y",
-        "axis":{
-          "titleColor":"white",
-          "titleFontSize":16,
-          "labelColor":"white",
-          "labelFontSize":12,
-          "labelAngle":0,
-          "grid": false
-        }
-      },
-      "y": {
-        "field": "value",
-        "aggregate": "sum",
-        "type": "quantitative",
-        "title": "Sum of Cases",
-        "axis":{
-          "titleColor":"white",
-          "titleFontSize":16,
-          "labelColor":"white",
-          "labelFontSize":13,
-          "grid": false
-        }
+  "transform": [
+      {"filter": "datum.num_alcohol_impaired_driving_deaths > 1432"},
+      {"filter": "Habit_selection == null || datum.variable == Habit_selection"}
+  ],
+  "encoding": {
+    "x": {
+      "field": "state",
+      "type": "ordinal",
+      "title": "State",
+      "sort":"-y",
+      "axis":{
+        "titleColor":"white",
+        "titleFontSize":16,
+        "labelColor":"white",
+        "labelFontSize":12,
+        "labelAngle":0,
+        "grid": false
       }
     },
-    "layer": [
-      {
-        "mark":{
-        "type": "bar",
-        "width":26
-        },
-        "encoding": {
-            "tooltip":[
-            {"field":"value", "type": "nominal","title":"Number of Cases", "format":".0f"}
-            ],
-            "color": {
-            "field": "variable",
-            "type": "nominal",
-            "scale": {
-                "domain": ["Obesity", "Excessive Drinking","Insufficient Sleep",  "Smoke"],
-                "range": [ "#FFD700", "#87CEFA","#F08080","#c7c7c7"]
-            },
-            "title": "Unhealthy Life Habit",
-            "legend":{
-              "titleColor":"white",
-              "orient": "top",
-              "labelColor":"white",
-              "titleFontSize":16,
-              "labelFontSize":13
-            }
-            }
-        }
-      },
-      {
-        "mark":{
-            "type": "text",
-            "align":"center",
-            "baseline":"middle",
-            "color":"white",
-            "dy":-5
-        },
-        "encoding": {
-            "text":{
-                "field":"value","aggregate": "sum","type": "quantitative","format":".0f"
-            }
-        }
+    "y": {
+      "field": "value",
+      "aggregate": "sum",
+      "type": "quantitative",
+      "title": "Sum of Cases",
+      "axis":{
+        "titleColor":"white",
+        "titleFontSize":16,
+        "labelColor":"white",
+        "labelFontSize":13,
+        "grid": false
       }
-    ],
-    "background":"black"
-  }
+    }
+  },
+  "layer": [
+    {
+      "mark":{
+      "type": "bar",
+      "width":26
+      },
+      "encoding": {
+          "tooltip":[
+          {"field":"value", "type": "nominal","title":"Number of Cases", "format":".0f"}
+          ],
+          "color": {
+          "field": "variable",
+          "type": "nominal",
+          "scale": {
+              "domain": ["Obesity", "Excessive Drinking","Insufficient Sleep",  "Smoke"],
+              "range": [ "#FFD700", "#87CEFA","#F08080","#c7c7c7"]
+          },
+          "title": "Unhealthy Life Habit",
+          "legend":{
+            "titleColor":"white",
+            "orient": "top",
+            "labelColor":"white",
+            "titleFontSize":16,
+            "labelFontSize":13
+          }
+          }
+      }
+    },
+    {
+      "mark":{
+          "type": "text",
+          "align":"center",
+          "baseline":"middle",
+          "color":"white",
+          "dy":-5
+      },
+      "encoding": {
+          "text":{
+              "field":"value","aggregate": "sum","type": "quantitative","format":".0f"
+          }
+      }
+    },
+    {
+      "transform": [
+        {"filter":"datum.state == 'California'"},
+        {
+          "calculate": "'Texas has the most number of people who has bad habits.;Inevitably, its number of death due to covid also very high'",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw,';')",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {"type": "text", "dx": 380, "dy": -330},
+      "encoding": {
+        "text": {"field": "text_annotation"},
+        "color": {"value": "#FFFFFF"},
+        "size": {"value": 15}
+      }
+    }
+  ],
+  "background":"black"
+}
   
 

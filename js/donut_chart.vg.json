@@ -3,9 +3,6 @@
   "view": {"stroke":"black"},
   "width": 400,
   "height": 500,
-  "params": [
-    {"name": "hover", "select": {"type": "point", "on": "mouseover"}}
-  ],
   "data": {
     "values": [
       {"State": "California", "value": 39613493},
@@ -20,24 +17,206 @@
       {"State": "Michigan", "value": 9992427}
     ]
   },
-  "mark": {"type": "arc", "innerRadius": 100, "stroke": "white"},
-  "encoding": {
-    "theta": {"field": "value", "type": "quantitative"},
-    "color": {"field": "State", "type": "nominal",
-  "legend":{
-    "titleColor":"white",
-    "labelColor":"white",
-    "labelFontSize":17,
-    "titleFontSize":18
-  }},
-    "tooltip":[
-      {"field": "State", "type": "nominal", "title": "State"},
-      {"field": "value", "type": "quantitative", "title": "Total Population"}
-    ],
-    "strokeWidth": {
-      "condition": [{"param": "hover", "empty": false, "value": 3}],
-      "value": 0
+  "layer": [
+    {
+      "params": [
+        {"name": "hover", "select": {"type": "point", "on": "mouseover"}}
+      ],
+      "mark": {"type": "arc", "innerRadius": 100, "stroke": "white"},
+      "encoding": {
+        "theta": {"field": "value", "type": "quantitative"},
+        "color": {"field": "State", "type": "nominal",
+"legend":null},
+        "tooltip":[
+          {"field": "State", "type": "nominal", "title": "State"},
+          {"field": "value", "type": "quantitative", "title": "Total Population"}
+        ],
+        "strokeWidth": {
+          "condition": [{"param": "hover", "empty": false, "value": 3}],
+          "value": 0
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "calculate": "'California'",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw,';')",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {"type": "text", "dx": 100, "dy": -110},
+      "encoding": {
+        "text": {"field": "text_annotation"},
+        "color": {"value": "#FFFFFF"},
+        "size": {"value": 13}
+      }
+    },
+    {
+      "transform": [
+        {
+          "calculate": "'Texas'",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw,';')",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {"type": "text", "dx": -70, "dy": -120},
+      "encoding": {
+        "text": {"field": "text_annotation"},
+        "color": {"value": "#FFFFFF"},
+        "size": {"value": 13}
+      }
+    },
+    {
+      "transform": [
+        {
+          "calculate": "'Pennsylvania'",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw,';')",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {"type": "text", "dx": -145, "dy": -40},
+      "encoding": {
+        "text": {"field": "text_annotation"},
+        "color": {"value": "#FFFFFF"},
+        "size": {"value": 13}
+      }
+    },
+    {
+      "transform": [
+        {
+          "calculate": "'Ohio'",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw,';')",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {"type": "text", "dx": -145, "dy": 20},
+      "encoding": {
+        "text": {"field": "text_annotation"},
+        "color": {"value": "#FFFFFF"},
+        "size": {"value": 13}
+      }
+    },
+    {
+      "transform": [
+        {
+          "calculate": "'North Carolina'",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw,';')",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {"type": "text", "dx": -135, "dy": 70},
+      "encoding": {
+        "text": {"field": "text_annotation"},
+        "color": {"value": "#FFFFFF"},
+        "size": {"value": 13}
+      }
+    },
+    {
+      "transform": [
+        {
+          "calculate": "'New York'",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw,';')",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {"type": "text", "dx": -80, "dy": 130},
+      "encoding": {
+        "text": {"field": "text_annotation"},
+        "color": {"value": "#FFFFFF"},
+        "size": {"value": 13}
+      }
+    },
+    {
+      "transform": [
+        {
+          "calculate": "'Michigan'",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw,';')",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {"type": "text", "dx": 0, "dy": 160},
+      "encoding": {
+        "text": {"field": "text_annotation"},
+        "color": {"value": "#FFFFFF"},
+        "size": {"value": 13}
+      }
+    },
+    {
+      "transform": [
+        {
+          "calculate": "'Illinois'",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw,';')",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {"type": "text", "dx": 55, "dy": 135},
+      "encoding": {
+        "text": {"field": "text_annotation"},
+        "color": {"value": "#FFFFFF"},
+        "size": {"value": 13}
+      }
+    },
+    {
+      "transform": [
+        {
+          "calculate": "'Georgia'",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw,';')",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {"type": "text", "dx": 105, "dy": 100},
+      "encoding": {
+        "text": {"field": "text_annotation"},
+        "color": {"value": "#FFFFFF"},
+        "size": {"value": 13}
+      }
+    },
+    {
+      "transform": [
+        {
+          "calculate": "'Florida'",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw,';')",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {"type": "text", "dx": 140, "dy": 20},
+      "encoding": {
+        "text": {"field": "text_annotation"},
+        "color": {"value": "#FFFFFF"},
+        "size": {"value": 13}
+      }
     }
-  },
+  ],
   "background":"balck"
 }

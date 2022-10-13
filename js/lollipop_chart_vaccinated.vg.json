@@ -87,6 +87,42 @@
             ],
             "color":{"field":"state"}
           }
+      },
+      {
+        "transform": [
+          {
+            "calculate": "'California is almost;the least vaccinated state'",
+            "as": "text_annotation_raw"
+          },
+          {
+            "calculate": "split(datum.text_annotation_raw,';')",
+            "as": "text_annotation"
+          }
+        ],
+        "mark": {"type": "text", "dx": 10, "dy": 100},
+        "encoding": {
+          "text": {"field": "text_annotation"},
+          "color": {"value": "#FFFFFF"},
+          "size": {"value": 15}
+        }
+      },
+      {
+        "transform": [
+          {
+            "calculate": "'Georgia is second;most vaccinated state'",
+            "as": "text_annotation_raw"
+          },
+          {
+            "calculate": "split(datum.text_annotation_raw,';')",
+            "as": "text_annotation"
+          }
+        ],
+        "mark": {"type": "text", "dx": 130, "dy": -80},
+        "encoding": {
+          "text": {"field": "text_annotation"},
+          "color": {"value": "#FFFFFF"},
+          "size": {"value": 15}
+        }
       }
     ],
     "background":"black"

@@ -29,7 +29,8 @@
               "titleColor":"white",
               "titleFontSize":16,
               "labelColor":"white",
-              "labelFontSize":14
+              "labelFontSize":14,
+              "grid": false
             }
           },
           "tooltip":[

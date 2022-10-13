@@ -135,15 +135,27 @@ body *{
     font-size: 24px;
 }
 
-.deathLolBold{
+.LolBold{
+    font-weight: bold;
+    color: #A9A9A9;
+    font-size: 24px;
+}
+
+.caliLolBold{
     font-weight: bold;
     color: #7B68EE;
     font-size: 24px;
 }
 
-.vacciLolBold{
+.floLolBold{
     font-weight: bold;
-    color: #F08080;
+    color: #FFA500;
+    font-size: 24px;
+}
+
+.georLolBold{
+    font-weight: bold;
+    color: #FF1493;
     font-size: 24px;
 }
 

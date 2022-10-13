@@ -8,8 +8,7 @@ body *{
     font-size: 65px;
     color: white;
     text-align:center;
-    -webkit-text-stroke: 0.4mm;
-    background-color: #000080;
+    background-color: black;
     border-radius: 10px;
     border-style:outset;
     padding-top: 5mm;

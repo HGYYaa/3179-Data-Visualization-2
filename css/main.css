@@ -45,6 +45,7 @@ body *{
     color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 22px;
+    word-spacing: 2px;
 }
 
 .page {
@@ -78,4 +79,81 @@ body *{
 .small-font {
     font-size: 14px;
     color: white;
+}
+
+.choroBold {
+    font-weight: bold;
+    color: #6A5ACD;
+    font-size: 24px;
+}
+
+.dotBold{
+    font-weight: bold;
+    color: #FF1493;
+    font-size: 24px;
+}
+
+.obesityBold{
+    font-weight: bold;
+    color: #FFD700;
+    font-size: 24px;
+}
+
+.excessiveDrinkBold{
+    font-weight: bold;
+    color: #87CEFA;
+    font-size: 24px;
+}
+
+.insufficientSleepBold{
+    font-weight: bold;
+    color: #F08080;
+    font-size: 24px;
+}
+
+.smokeBold{
+    font-weight: bold;
+    color: #A9A9A9;
+    font-size: 24px;
+}
+
+.drinkingBold{
+    font-weight: bold;
+    color: #7B68EE;
+    font-size: 24px;
+}
+
+.overdoseBold{
+    font-weight: bold;
+    color: #3CB371;
+    font-size: 24px;
+}
+
+.covidBold{
+    font-weight: bold;
+    color: #FFB6C1;
+    font-size: 24px;
+}
+
+.deathLolBold{
+    font-weight: bold;
+    color: #7B68EE;
+    font-size: 24px;
+}
+
+.vacciLolBold{
+    font-weight: bold;
+    color: #F08080;
+    font-size: 24px;
+}
+
+.donut{
+    font-size: 22px;
+    text-align: center;
+}
+
+.donutscatBold{
+    font-weight: bold;
+    color: #3CB371;
+    font-size: 24px;
 }

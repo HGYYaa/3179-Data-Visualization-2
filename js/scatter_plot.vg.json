@@ -3,16 +3,22 @@
     "data": {"url": "https://raw.githubusercontent.com/HGYYaa/3179PRO2/main/data/us_county_sociohealth_data.csv"},
     "view": {"stroke":"black"},
     "width":400,
-    "height":400,
-    "mark":{
-      "type":"circle",
-      "size":300,
-      "filled": true,
-      "fillOpacity":{"expr": "10"}
-    },
+    "height":400,     
     "transform": [
       {"filter": "datum.num_deaths > 15000"}
     ],
+    "selection": {
+      "state_highlight": {
+      "type": "multi",
+      "fields": ["state"],
+      "bind": "legend"
+      }
+    }, 
+    "mark":{
+      "type":"circle",
+      "size":300,
+      "filled": true
+    },
     "encoding": {
       "x": {"field": "percent_vaccinated", "type": "quantitative", "scale":{
         "domain":[20,60]
@@ -42,6 +48,10 @@
           "titleFontSize":18
         }
       },
+      "opacity": {
+        "condition": {"selection": "state_highlight", "value": 0.9},
+        "value": 0.2
+        },
       "tooltip":[
         {"field": "state", "type": "nominal", "title": "State"},
         {"field": "percent_vaccinated", "type": "quantitative", "title": "Vaccinated Percentage"},

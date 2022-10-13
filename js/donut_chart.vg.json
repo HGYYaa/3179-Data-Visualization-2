@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "view": {"stroke":"black"},
   "width": 400,
-  "height": 400,
+  "height": 500,
   "data": {
     "values": [
       {"State": "California", "value": 39613493},

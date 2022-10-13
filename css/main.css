@@ -17,7 +17,7 @@ body *{
 
 .MainParagraph {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     color: white;
     text-align: center;
     word-spacing: 4px;
@@ -44,7 +44,7 @@ body *{
 .GraphParagrapgh{
     color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .page {

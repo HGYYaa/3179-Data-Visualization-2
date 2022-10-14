@@ -15,8 +15,22 @@
     },
     "transform": [
       {"filter": "datum.num_alcohol_impaired_driving_deaths > 1432"},
-      {"filter": "datum.num_deaths > 1000"}
+      {"filter": "datum.num_deaths > 1000"},
+      {
+        "calculate": "datum.num_drug_overdose_deaths/datum.num_deaths",
+        "as": "percentage"
+      }
     ],
+    "encoding": {
+      "y":{
+        "field":"state",
+        "type":"nominal"
+      },
+      "x": {
+        "field":"num_deaths",
+        "type":"quantitative"
+      }
+    },
     "layer": [
       {
         "params": [
@@ -131,6 +145,22 @@
             {"field": "num_deaths", "type": "quantitative", "title": "Covid Death"},
             {"field": "num_drug_overdose_deaths", "type": "quantitative", "title": "Overdose Death"}
           ]
+        }
+      },
+      {
+        "mark":{
+          "type": "text",
+          "align":"right",
+          "baseline":"middle",
+          "dx":40,
+          "color":"white"
+        },
+        "encoding": {
+          "text":{
+            "field":"percentage",
+            "type": "quantitative",
+            "format":".2%"
+          }
         }
       }
     ],

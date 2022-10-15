@@ -167,7 +167,7 @@
         "transform": [
           {"filter":"datum.state == 'Missouri'"},
           {
-            "calculate": "'# Drinking Death'",
+            "calculate": "'■ Drinking Death'",
             "as": "text_annotation_raw"
           },
           {
@@ -187,7 +187,7 @@
         "transform": [
           {"filter":"datum.state == 'Missouri'"},
           {
-            "calculate": "' # Covid Death'",
+            "calculate": "' ■ Covid Death'",
             "as": "text_annotation_raw"
           },
           {
@@ -207,7 +207,7 @@
         "transform": [
           {"filter":"datum.state == 'Missouri'"},
           {
-            "calculate": "'# Overdose Death'",
+            "calculate": "'■ Overdose Death'",
             "as": "text_annotation_raw"
           },
           {

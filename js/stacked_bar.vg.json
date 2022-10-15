@@ -93,7 +93,8 @@
           "align":"center",
           "baseline":"middle",
           "color":"white",
-          "dy":-5
+          "dy":-10,
+          "size":13
       },
       "encoding": {
           "text":{
@@ -113,11 +114,11 @@
           "as": "text_annotation"
         }
       ],
-      "mark": {"type": "text", "dx": 380, "dy": -330},
+      "mark": {"type": "text", "dx": 360, "dy": -330},
       "encoding": {
         "text": {"field": "text_annotation"},
         "color": {"value": "#FFFFFF"},
-        "size": {"value": 15}
+        "size": {"value": 17}
       }
     }
   ],

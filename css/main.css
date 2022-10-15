@@ -4,7 +4,7 @@ body *{
   
 .MainHeading {
     font-weight: 1000;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'ZCOOL QingKe HuangYou', cursive;
     font-size: 60px;
     color: white;
     text-align:center;
@@ -13,7 +13,7 @@ body *{
     border-style:outset;
     padding-top: 5mm;
     height: 90px;
-    word-spacing: 4px;
+    word-spacing: 40px;
 }
 
 .MainParagraph {
@@ -29,13 +29,13 @@ body *{
 }
 
 .GraphHeading{
-    font-family:'Times New Roman', Times, serif;
+    font-family:'ZCOOL QingKe HuangYou', cursive;
     font-weight: 700;
     font-size: 45px;
     text-decoration: overline;
     color: white;
     text-align: center;
-    word-spacing: 4px;
+    word-spacing: 15px;
 }
 
 .spaceBtwGraph{

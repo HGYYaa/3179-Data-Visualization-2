@@ -11,7 +11,7 @@
     "width":500,
     "height":300,
     "data": {
-      "url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset.csv"
+      "url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset_3.csv"
     },
     "transform": [
       {"filter": "datum.num_alcohol_impaired_driving_deaths > 1432"},
@@ -161,66 +161,6 @@
             "type": "quantitative",
             "format":".2%"
           }
-        }
-      },
-      {
-        "transform": [
-          {"filter":"datum.state == 'Missouri'"},
-          {
-            "calculate": "'# Drinking Death'",
-            "as": "text_annotation_raw"
-          },
-          {
-            "calculate": "split(datum.text_annotation_raw,';')",
-            "as": "text_annotation"
-          }
-        ],
-        "mark": {"type": "text", "dx": -300, "dy": 250},
-        "encoding": {
-          "text": {"field": "text_annotation"},
-          "color": {"value": "#7B68EE"},
-          "size": {"value": 15},
-          "stroke":{"value": "#7B68EE"}
-        }
-      },
-      {
-        "transform": [
-          {"filter":"datum.state == 'Missouri'"},
-          {
-            "calculate": "' # Covid Death'",
-            "as": "text_annotation_raw"
-          },
-          {
-            "calculate": "split(datum.text_annotation_raw,';')",
-            "as": "text_annotation"
-          }
-        ],
-        "mark": {"type": "text", "dx": -100, "dy": 250},
-        "encoding": {
-          "text": {"field": "text_annotation"},
-          "color": {"value": "#FFB6C1"},
-          "size": {"value": 15},
-          "stroke":{"value": "#FFB6C1"}
-        }
-      },
-      {
-        "transform": [
-          {"filter":"datum.state == 'Missouri'"},
-          {
-            "calculate": "'# Overdose Death'",
-            "as": "text_annotation_raw"
-          },
-          {
-            "calculate": "split(datum.text_annotation_raw,';')",
-            "as": "text_annotation"
-          }
-        ],
-        "mark": {"type": "text", "dx": 100, "dy": 250},
-        "encoding": {
-          "text": {"field": "text_annotation"},
-          "color": {"value": "#3CB371"},
-          "size": {"value": 15},
-          "stroke":{"value": "#3CB371"}
         }
       }
     ],

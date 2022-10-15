@@ -36,14 +36,18 @@
           }
         ],
         "params": [
-          {"name": "hover", "select": {"type": "point", "on": "mouseover"}}
+          {"name": "hover", "select": {"type": "point", "on": "mouseover"}},
+          {
+            "name": "select",
+            "select": "point"
+          }
         ],
         "projection": {"type": "albersUsa"},
         "mark": {"type": "geoshape", "stroke": "#4B0082"},
         "encoding": {
           "color": {
             "condition": {
-              "param": "hover",
+              "param": "select",
               "field": "population_density_per_sqmi",
               "type": "quantitative",
               "scale": {
@@ -80,11 +84,11 @@
             }
           ],
           "strokeWidth": {
-            "condition": [{"param": "hover", "empty": false, "value": 1}],
+            "condition": [{"param": "select", "empty": false, "value": 1}],
             "value": 0.5
           },
           "opacity": {
-            "condition": {"param": "hover", "value": 1},
+            "condition": {"param": "select", "value": 1},
             "value": 0.1
           }
         }

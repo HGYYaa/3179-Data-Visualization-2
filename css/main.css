@@ -4,15 +4,16 @@ body *{
   
 .MainHeading {
     font-weight: 1000;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 65px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 60px;
     color: white;
     text-align:center;
     background-color: black;
     border-radius: 10px;
     border-style:outset;
     padding-top: 5mm;
-    height: 100px;
+    height: 90px;
+    word-spacing: 4px;
 }
 
 .MainParagraph {
@@ -28,7 +29,7 @@ body *{
 }
 
 .GraphHeading{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-weight: 700;
     font-size: 45px;
     text-decoration: overline;
@@ -84,79 +85,79 @@ body *{
 .choroBold {
     font-weight: bold;
     color: #6A5ACD;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .dotBold{
     font-weight: bold;
     color: #FF1493;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .obesityBold{
     font-weight: bold;
     color: #FFD700;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .excessiveDrinkBold{
     font-weight: bold;
     color: #87CEFA;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .insufficientSleepBold{
     font-weight: bold;
     color: #F08080;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .smokeBold{
     font-weight: bold;
     color: #A9A9A9;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .drinkingBold{
     font-weight: bold;
     color: #7B68EE;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .overdoseBold{
     font-weight: bold;
     color: #3CB371;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .covidBold{
     font-weight: bold;
     color: #FFB6C1;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .LolBold{
     font-weight: bold;
     color: #A9A9A9;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .caliLolBold{
     font-weight: bold;
     color: #7B68EE;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .floLolBold{
     font-weight: bold;
     color: #FFA500;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .georLolBold{
     font-weight: bold;
     color: #FF1493;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .donut{
@@ -167,5 +168,5 @@ body *{
 .donutscatBold{
     font-weight: bold;
     color: #3CB371;
-    font-size: 24px;
+    font-size: 22px;
 }

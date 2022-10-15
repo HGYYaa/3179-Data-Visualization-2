@@ -217,6 +217,24 @@
         "color": {"value": "#FFFFFF"},
         "size": {"value": 13}
       }
+    },
+    {
+      "transform": [
+        {
+          "calculate": "'Total Population'",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw,';')",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {"type": "text", "dx": 0, "dy": 0},
+      "encoding": {
+        "text": {"field": "text_annotation"},
+        "color": {"value": "#FFFFFF"},
+        "size": {"value": 20}
+      }
     }
   ],
   "background":"balck"

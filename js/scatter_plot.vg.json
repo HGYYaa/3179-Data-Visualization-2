@@ -7,58 +7,126 @@
     "transform": [
       {"filter": "datum.num_deaths > 15000"}
     ],
-    "selection": {
-      "state_highlight": {
-      "type": "multi",
-      "fields": ["state"],
-      "bind": "legend"
-      }
-    }, 
-    "mark":{
-      "type":"circle",
-      "size":300,
-      "filled": true
-    },
-    "encoding": {
-      "x": {"field": "percent_vaccinated", "type": "quantitative", "scale":{
-        "domain":[20,60]
-      },"title":"Vaccinated Percentage",
-    "axis":{
-      "titleColor":"white",
-      "titleFontSize":18,
-      "labelColor":"white",
-      "labelFontSize":17
-    }},
-      "y": {"field": "life_expectancy", "type": "quantitative", "scale":{
-        "domain":[70,100],"domainMax":90
-      },"title":"Life Expectancy",
-      "axis":{
-        "titleColor":"white",
-        "titleFontSize":16,
-        "labelColor":"white",
-        "labelFontSize":16
-      }},
-      "color":{
-        "field":"state","type": "nominal",
-        "legend":{
-          "title":"State",
+    "layer": [
+      {
+        "selection": {
+          "state_highlight": {
+          "type": "multi",
+          "fields": ["state"],
+          "bind": "legend"
+          }
+        }, 
+        "mark":{
+          "type":"circle",
+          "size":300,
+          "filled": true
+        },
+        "encoding": {
+          "x": {"field": "percent_vaccinated", "type": "quantitative", "scale":{
+            "domain":[20,60]
+          },"title":"Vaccinated Percentage",
+        "axis":{
           "titleColor":"white",
-          "labelColor":"white",
-          "labelFontSize":17,
           "titleFontSize":18,
-          "orient": "left"
+          "labelColor":"white",
+          "labelFontSize":17
+        }},
+          "y": {"field": "life_expectancy", "type": "quantitative", "scale":{
+            "domain":[70,100],"domainMax":90
+          },"title":"Life Expectancy",
+          "axis":{
+            "titleColor":"white",
+            "titleFontSize":16,
+            "labelColor":"white",
+            "labelFontSize":16
+          }},
+          "color":{
+            "field":"state","type": "nominal",
+            "legend":{
+              "labelColor":"white",
+              "titleColor":"white",
+              "titleFontSize":18,
+              "labelFontSize":16,
+              "orient": "left"
+            },
+            "scale":{
+              "domain":[
+                "Arizona",
+                "California",
+                "Florida",
+                "Illinois",
+                "Michigan",
+                "Neveda",
+                "New York",
+                "Ohio",
+                "Pennsylvania",
+                "Texas",
+                "Washington"
+              ],
+              "range":[
+                "#A9A9A9",
+                "#FF4500",
+                "#A9A9A9",
+                "#A9A9A9",
+                "#A9A9A9",
+                "#A9A9A9",
+                "#A9A9A9",
+                "#A9A9A9",
+                "#A9A9A9",
+                "#A9A9A9",
+                "#A9A9A9"
+              ]
+            }
+          },
+          "opacity": {
+            "condition": {"selection": "state_highlight", "value": 0.9},
+            "value": 0.2
+            },
+          "tooltip":[
+            {"field": "state", "type": "nominal", "title": "State"},
+            {"field": "percent_vaccinated", "type": "quantitative", "title": "Vaccinated Percentage"},
+            {"field": "life_expectancy", "type": "quantitative", "title": "Life Expectancy","format":".1f"}
+          ]
         }
       },
-      "opacity": {
-        "condition": {"selection": "state_highlight", "value": 0.9},
-        "value": 0.2
-        },
-      "tooltip":[
-        {"field": "state", "type": "nominal", "title": "State"},
-        {"field": "percent_vaccinated", "type": "quantitative", "title": "Vaccinated Percentage"},
-        {"field": "life_expectancy", "type": "quantitative", "title": "Life Expectancy","format":".1f"}
-      ]
-    },
+      {
+        "transform": [
+          {
+            "calculate": "'California has higher life expectancy as the;vaccinated rate increase with the life expectancy'",
+            "as": "text_annotation_raw"
+          },
+          {
+            "calculate": "split(datum.text_annotation_raw,';')",
+            "as": "text_annotation"
+          }
+        ],
+        "mark": {"type": "text", "dx": 45, "dy": -150},
+        "encoding": {
+          "text": {"field": "text_annotation"},
+          "color": {"value": "#FFFFFF"},
+          "size": {"value": 14}
+        }
+      },
+      {
+        "transform": [
+          {
+            "calculate": "'California'",
+            "as": "text_annotation_raw"
+          },
+          {
+            "calculate": "split(datum.text_annotation_raw,';')",
+            "as": "text_annotation"
+          }
+        ],
+        "mark": {"type": "text", "dx": -130, "dy": 50},
+        "encoding": {
+          "text": {"field": "text_annotation"},
+          "color": {"value": "#FF4500"},
+          "size": {"value": 14}
+        }
+      }
+    ],
+    
     "background":"black"
 }
   

@@ -16,7 +16,7 @@
         "type": "albersUsa"
       },
       "transform": [
-        {"calculate": "datum.properties.name", "as": "note"}
+        {"calculate": "'State: ' + datum.properties.name", "as": "note"}
       ],
       "mark": {
         "type": "geoshape",
@@ -44,6 +44,25 @@
         },
         "size": {"value": 10},
         "color": {"value": "#FF1493"}
+      }
+    },
+    {
+      "transform": [
+        {"filter":"datum.state == 'Nevada'"},
+        {
+          "calculate": "'East  of  US has;more  covid-19  cases'",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw,';')",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {"type": "text", "dx": 150, "dy": 160},
+      "encoding": {
+        "text": {"field": "text_annotation"},
+        "color": {"value": "#FFFFFF"},
+        "size": {"value": 14}
       }
     }
   ],

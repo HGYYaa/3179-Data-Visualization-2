@@ -92,8 +92,25 @@
             "value": 0.1
           }
         }
+      },
+      {
+        "transform": [
+          {
+            "calculate": "'East  of  US has;denser  population'",
+            "as": "text_annotation_raw"
+          },
+          {
+            "calculate": "split(datum.text_annotation_raw,';')",
+            "as": "text_annotation"
+          }
+        ],
+        "mark": {"type": "text", "dx": 140, "dy": 160},
+        "encoding": {
+          "text": {"field": "text_annotation"},
+          "color": {"value": "#FFFFFF"},
+          "size": {"value": 14}
+        }
       }
-    
     ],
     "background":"black"
 }

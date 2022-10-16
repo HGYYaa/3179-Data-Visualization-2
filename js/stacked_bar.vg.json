@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width":700,
+  "width":750,
   "view": {"stroke":"black"},
   "height":500,
   "data": {"url": "https://raw.githubusercontent.com/HGYYaa/3179-Project2/main/data/YY_cleaned_dataset_2.csv"},
@@ -40,8 +40,8 @@
         "titleColor":"white",
         "titleFontSize":16,
         "labelColor":"white",
-        "labelFontSize":12,
-        "labelAngle":0,
+        "labelFontSize":11,
+        "labelAngle":-20,
         "grid": false
       }
     },

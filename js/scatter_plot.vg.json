@@ -65,7 +65,7 @@
               ],
               "range":[
                 "#A9A9A9",
-                "#FF4500",
+                "#4E79A7",
                 "#A9A9A9",
                 "#A9A9A9",
                 "#A9A9A9",
@@ -121,7 +121,7 @@
         "mark": {"type": "text", "dx": -130, "dy": 50},
         "encoding": {
           "text": {"field": "text_annotation"},
-          "color": {"value": "#FF4500"},
+          "color": {"value": "#4E79A7"},
           "size": {"value": 14}
         }
       }

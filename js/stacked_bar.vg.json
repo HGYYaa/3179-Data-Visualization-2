@@ -67,7 +67,8 @@
       },
       "encoding": {
           "tooltip":[
-          {"field":"value", "type": "nominal","title":"Number of Cases", "format":".0f"}
+            {"field":"variable", "type": "nominal","title":"Bad Habit"},
+            {"field":"value", "type": "nominal","title":"Number of Cases", "format":".0f"}
           ],
           "color": {
           "field": "variable",
